@@ -1,6 +1,6 @@
 /*
 	. Member initializers set values while first initializing the class
-	. Assignments in constructor body causes the variable to initialized twice. This is throwing performance array (mostly in nested objects)
+	. Assignments in constructor body causes the variable to initialized twice. This is throwing performance away (mostly in nested objects)
 	. YOU SHOULD BE USING MEMBER INITIALIZERS
 	. Remember that raw c++ types are not initialized, only classes
 */

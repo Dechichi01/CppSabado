@@ -1,6 +1,6 @@
 /*
 	. Main purpose of NEW is to allocate memoty on the HEAP (of anything)
-		. It means that the SO have to look for a continuous chunk of memoty that meets the size
+		. It means that the process have to look for a continuous chunk of memoty that meets the size, or ask the SO for more
 		. Usually "new" calls malloc  
 */
 
