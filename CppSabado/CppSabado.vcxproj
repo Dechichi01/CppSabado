@@ -39,6 +39,10 @@
     <ClCompile Include="src\Cherno\7_Managed_Pointers\unique_ptr_implementation.cpp" />
     <ClCompile Include="src\Cherno\8_CopyAssignConstructor\copy_constructor.cpp" />
     <ClCompile Include="src\Cherno\9_StdVector_Array\vector.cpp" />
+    <ClCompile Include="src\Cpp_11\1_ManualMemManagement\l_r_values.cpp" />
+    <ClCompile Include="src\Cpp_11\1_ManualMemManagement\rule_of_five.cpp" />
+    <ClCompile Include="src\Cpp_11\1_ManualMemManagement\rule_of_three.cpp" />
+    <ClCompile Include="src\Cpp_11\1_ManualMemManagement\swap.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

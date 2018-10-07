@@ -23,18 +23,18 @@ struct Vector4 {
 	};
 };
 
-int main() {
-
-	struct Float3
-	{
-		union { int x, r; };
-		union { int y, g; };
-		union { int z, b; };
-	};
-
-	Vector4 v4{ 1,2, 3, 4 };
-
-	LOG_VEC2(v4.b);
-	v4.z = 50;
-	LOG_VEC2(v4.b);  
-}
+//int main() {
+//
+//	struct Float3
+//	{
+//		union { int x, r; };
+//		union { int y, g; };
+//		union { int z, b; };
+//	};
+//
+//	Vector4 v4{ 1,2, 3, 4 };
+//
+//	LOG_VEC2(v4.b);
+//	v4.z = 50;
+//	LOG_VEC2(v4.b);  
+//}
