@@ -10,6 +10,9 @@
 		. Delete the previous object
 		. Make a shallow copy
 		. nullptr the other (signify the operation)
+
+	. DO NOT use const on Move semantics as this will make the compiler choose the Copy constructor
+	. Cast and std::move can be used to enforce calls to the correct constructor
 */
 
 #include <stdlib.h>

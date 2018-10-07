@@ -30,11 +30,11 @@ public:
 		return *this;
 	}
 
-	Entity(const Entity&& temp) {
+	Entity(Entity&& temp) {
 		LOG("Move operator");
 	}
 
-	Entity& operator=(const Entity&& temp) {
+	Entity& operator=(Entity&& temp) {
 		LOG("Move assignment operator");
 		return *this;
 	}
