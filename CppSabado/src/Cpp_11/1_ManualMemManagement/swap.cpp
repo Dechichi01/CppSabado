@@ -1,8 +1,6 @@
 #include <iostream>
 #include <thread>
 
-
-
 #define LOG(x) std::cout << x << std::endl
 
 void Wait() {
@@ -42,12 +40,12 @@ public:
 	}
 };
 
-int main() {
-	//without the cast, copy constructors are called
-	Entity a;
-	Entity b;
-
-	Entity temp = (Entity&&) a;
-	a = (Entity&&) b;
-	b = (Entity&&) temp;
-}
+//int main() {
+//	//without the cast, copy constructors are called
+//	Entity a;
+//	Entity b;
+//
+//	Entity temp = (Entity&&) a;
+//	a = (Entity&&) b;
+//	b = (Entity&&) temp;
+//}

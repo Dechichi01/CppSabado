@@ -1,0 +1,4 @@
+/*
+	. Pure virtual classes
+	. Just remember to make Constructors and Destructors virtual or mem leak happens
+*/

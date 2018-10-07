@@ -43,6 +43,10 @@
     <ClCompile Include="src\Cpp_11\1_ManualMemManagement\rule_of_five.cpp" />
     <ClCompile Include="src\Cpp_11\1_ManualMemManagement\rule_of_three.cpp" />
     <ClCompile Include="src\Cpp_11\1_ManualMemManagement\swap.cpp" />
+    <ClCompile Include="src\Cpp_11\2_Inheritance\inheritance.cpp" />
+    <ClCompile Include="src\Cpp_11\2_Inheritance\interfaces.cpp" />
+    <ClCompile Include="src\Cpp_11\3_CppCasts\c_cpp_casts.cpp" />
+    <ClCompile Include="src\Cpp_11\3_CppCasts\implicit_explicit_casts.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
